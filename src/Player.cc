@@ -1,4 +1,4 @@
-#include "../include/Player.hh"
+#include "Player.hh"
 
 namespace Padel_Tournament
 {
@@ -19,6 +19,11 @@ namespace Padel_Tournament
   std::string Player::getName()
   {
       return this->m_Name;
+  }
+
+  unsigned int Player::getPlayerID ()
+  {
+    return m_playerID;
   }
 
 }

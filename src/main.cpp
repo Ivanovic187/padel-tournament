@@ -1,4 +1,4 @@
-#include "../include/Player.hh"
+#include "Player.hh"
 #include <iostream>
 
 using namespace Padel_Tournament;

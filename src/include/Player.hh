@@ -28,6 +28,7 @@ namespace Padel_Tournament
    ~Player();
 
    std::string getName();
+   unsigned int getPlayerID();
 
   private:
     unsigned int          m_playerID;
