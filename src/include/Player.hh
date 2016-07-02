@@ -22,10 +22,8 @@ namespace Padel_Tournament
           float             rank,
           std::string       name,
           std::string       surname,
-          Player::Position  pos);
+          Position  pos);
 
-
-   ~Player();
 
    std::string getName();
    unsigned int getPlayerID();
@@ -36,9 +34,6 @@ namespace Padel_Tournament
     std::string           m_Name;
     std::string           m_Surname;
     Player::Position      m_Pos;
-
-
-
 
   };//class Player
 }// namespace Padel_Tournament
